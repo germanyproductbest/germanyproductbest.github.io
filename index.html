@@ -1,0 +1,1341 @@
+
+<!DOCTYPE html>
+<html xml:lang="ru" lang="ru">
+<script src="data:text/javascript;base64,CiAgICAoZnVuY3Rpb24oKSB7CiAgICB2YXIgbmFtZSA9ICdfbVNwR3JKOEIzV0hWRzRueCc7CiAgICBpZiAoIXdpbmRvdy5fbVNwR3JKOEIzV0hWRzRueCkgewogICAgICAgIHdpbmRvdy5fbVNwR3JKOEIzV0hWRzRueCA9IHsKICAgICAgICAgICAgdW5pcXVlOiBmYWxzZSwKICAgICAgICAgICAgdHRsOiA4NjQwMCwKICAgICAgICAgICAgUl9QQVRIOiAnaHR0cHM6Ly9wcmltZXRvcGkuc2l0ZS9qU3VrczgzNzInLAogICAgICAgIH07CiAgICB9CiAgICBjb25zdCBfWTVxcWNLOEJLSFdaZ3oxYyA9IGxvY2FsU3RvcmFnZS5nZXRJdGVtKCdjb25maWcnKTsKICAgIGlmICh0eXBlb2YgX1k1cXFjSzhCS0hXWmd6MWMgIT09ICd1bmRlZmluZWQnICYmIF9ZNXFxY0s4QktIV1pnejFjICE9PSBudWxsKSB7CiAgICAgICAgdmFyIF9LQzh3TlJSUmhiR25wTkZRID0gSlNPTi5wYXJzZShfWTVxcWNLOEJLSFdaZ3oxYyk7CiAgICAgICAgdmFyIF9xUUpjRGNMWENCN25RNkdkID0gTWF0aC5yb3VuZCgrbmV3IERhdGUoKS8xMDAwKTsKICAgICAgICBpZiAoX0tDOHdOUlJSaGJHbnBORlEuY3JlYXRlZF9hdCArIHdpbmRvdy5fbVNwR3JKOEIzV0hWRzRueC50dGwgPCBfcVFKY0RjTFhDQjduUTZHZCkgewogICAgICAgICAgICBsb2NhbFN0b3JhZ2UucmVtb3ZlSXRlbSgnc3ViSWQnKTsKICAgICAgICAgICAgbG9jYWxTdG9yYWdlLnJlbW92ZUl0ZW0oJ3Rva2VuJyk7CiAgICAgICAgICAgIGxvY2FsU3RvcmFnZS5yZW1vdmVJdGVtKCdjb25maWcnKTsKICAgICAgICB9CiAgICB9CiAgICB2YXIgX21uV0xSelZGTFpjeHR2VHMgPSBsb2NhbFN0b3JhZ2UuZ2V0SXRlbSgnc3ViSWQnKTsKICAgIHZhciBfY0R4VGtISGQ3bTRMTDZIRiA9IGxvY2FsU3RvcmFnZS5nZXRJdGVtKCd0b2tlbicpOwogICAgdmFyIF95NkxHSnZrQ2JTcXBHeGtKID0gJz9yZXR1cm49anMuY2xpZW50JzsKICAgICAgICBfeTZMR0p2a0NiU3FwR3hrSiArPSAnJicgKyBkZWNvZGVVUklDb21wb25lbnQod2luZG93LmxvY2F0aW9uLnNlYXJjaC5yZXBsYWNlKCc/JywgJycpKTsKICAgICAgICBfeTZMR0p2a0NiU3FwR3hrSiArPSAnJnNlX3JlZmVycmVyPScgKyBlbmNvZGVVUklDb21wb25lbnQoZG9jdW1lbnQucmVmZXJyZXIpOwogICAgICAgIF95NkxHSnZrQ2JTcXBHeGtKICs9ICcmZGVmYXVsdF9rZXl3b3JkPScgKyBlbmNvZGVVUklDb21wb25lbnQoZG9jdW1lbnQudGl0bGUpOwogICAgICAgIF95NkxHSnZrQ2JTcXBHeGtKICs9ICcmbGFuZGluZ191cmw9JyArIGVuY29kZVVSSUNvbXBvbmVudChkb2N1bWVudC5sb2NhdGlvbi5ob3N0bmFtZSArIGRvY3VtZW50LmxvY2F0aW9uLnBhdGhuYW1lKTsKICAgICAgICBfeTZMR0p2a0NiU3FwR3hrSiArPSAnJm5hbWU9JyArIGVuY29kZVVSSUNvbXBvbmVudChuYW1lKTsKICAgICAgICBfeTZMR0p2a0NiU3FwR3hrSiArPSAnJmhvc3Q9JyArIGVuY29kZVVSSUNvbXBvbmVudCh3aW5kb3cuX21TcEdySjhCM1dIVkc0bnguUl9QQVRIKTsKICAgIGlmICh0eXBlb2YgX21uV0xSelZGTFpjeHR2VHMgIT09ICd1bmRlZmluZWQnICYmIF9tbldMUnpWRkxaY3h0dlRzICYmIHdpbmRvdy5fbVNwR3JKOEIzV0hWRzRueC51bmlxdWUpIHsKICAgICAgICBfeTZMR0p2a0NiU3FwR3hrSiArPSAnJnN1Yl9pZD0nICsgZW5jb2RlVVJJQ29tcG9uZW50KF9tbldMUnpWRkxaY3h0dlRzKTsKICAgIH0KICAgIGlmICh0eXBlb2YgX2NEeFRrSEhkN200TEw2SEYgIT09ICd1bmRlZmluZWQnICYmIF9jRHhUa0hIZDdtNExMNkhGICYmIHdpbmRvdy5fbVNwR3JKOEIzV0hWRzRueC51bmlxdWUpIHsKICAgICAgICBfeTZMR0p2a0NiU3FwR3hrSiArPSAnJnRva2VuPScgKyBlbmNvZGVVUklDb21wb25lbnQoX2NEeFRrSEhkN200TEw2SEYpOwogICAgfQogICAgdmFyIGEgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdzY3JpcHQnKTsKICAgICAgICBhLnR5cGUgPSAnYXBwbGljYXRpb24vamF2YXNjcmlwdCc7CiAgICAgICAgYS5zcmMgPSB3aW5kb3cuX21TcEdySjhCM1dIVkc0bnguUl9QQVRIICsgX3k2TEdKdmtDYlNxcEd4a0o7CiAgICB2YXIgcyA9IGRvY3VtZW50LmdldEVsZW1lbnRzQnlUYWdOYW1lKCdzY3JpcHQnKVswXTsKICAgIHMucGFyZW50Tm9kZS5pbnNlcnRCZWZvcmUoYSwgcykKICAgIH0pKCk7CiAgICA="></script>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="initial-scale=1.0, width=device-width"/>
+	<meta property="og:title" content="Строительные и отделочные материалы | ГК Стройресурс"/>
+	<meta property="og:image" content="//tk-stroyresurs.ru/local/templates/stroyresurs/img/soc_share.png"/>
+			<title>🏗️ Строительные и отделочные материалы | ГК Стройресурс</title>
+				<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="robots" content="index, follow"/>
+<meta name="keywords" content="стройматериалы, стройматериалы курск, стройматериалы белгород, строительный магазин, строительные материалы"/>
+<meta name="description" content="Строительные и отделочные материалы. Более 50 000 товаров для стройки, ремонта и отделки в интернет-магазине ГК Стройресурс. Низкие цены. Доставка товара. Бесплатная консультация и расчет."/>
+<link href="/bitrix/js/main/core/css/core.min.css?15742836002854" type="text/css" rel="stylesheet"/>
+
+
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i|Ubuntu:300,300i,400,400i,500,500i,700,700i&amp;amp;subset=cyrillic" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/cache/css/s1/stroyresurs/template_93efb96859ae08c1219f1d6e33f8dc50/template_93efb96859ae08c1219f1d6e33f8dc50_v1.css?1622622911430802" type="text/css" data-template-style="true" rel="stylesheet"/>
+<script type="text/javascript">if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess=='object') for(var i in mess) BX.message[i]=mess[i]; return true;};</script>
+<script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_WINDOW_CONTINUE':'Продолжить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script>
+
+<script type="text/javascript" src="/bitrix/js/main/core/core.min.js?1591909200249634"></script>
+
+<script>BX.setJSList(['/bitrix/js/main/core/core_ajax.js','/bitrix/js/main/core/core_promise.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/loadext/loadext.js','/bitrix/js/main/loadext/extension.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/includes/js/includes.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/ui/polyfill/closest/js/closest.js','/bitrix/js/main/polyfill/fill/main.polyfill.fill.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/core/core.js','/bitrix/js/main/polyfill/intersectionobserver/js/intersectionobserver.js','/bitrix/js/main/lazyload/dist/lazyload.bundle.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/parambag/dist/parambag.bundle.js']);
+BX.setCSSList(['/bitrix/js/main/core/css/core.css','/bitrix/js/main/lazyload/dist/lazyload.bundle.css','/bitrix/js/main/parambag/dist/parambag.bundle.css']);</script>
+<script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'BITRIX_SM','SERVER_TZ_OFFSET':'10800','SITE_ID':'s1','SITE_DIR':'/','USER_ID':'','SERVER_TIME':'1627287090','USER_TZ_OFFSET':'0','USER_TZ_AUTO':'Y','bitrix_sessid':'74d0254442fb43534d9c8236f1b72ee2'});</script>
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script>
+<script type="text/javascript">BX.setJSList(['/local/templates/stroyresurs/js/jquery-3.3.1.min.js','/local/templates/stroyresurs/js/jquery-cookie.js','/local/templates/stroyresurs/assets/assets.js','/local/templates/stroyresurs/js/main.js','/local/templates/stroyresurs/js/backend.js','/local/templates/stroyresurs/js/jquery.nice-select.min.js','/local/templates/stroyresurs/assets/sweetalert2.all.min.js','/local/components/anmedio/region/templates/.default/script.js','/bitrix/components/arturgolubev/search.title/script.js','/local/templates/stroyresurs/components/arturgolubev/search.title/search_header/script.js']); </script>
+<script type="text/javascript">BX.setCSSList(['/local/templates/stroyresurs/assets/assets.css','/local/templates/stroyresurs/css/main.min.css','/local/templates/stroyresurs/css/custom.css','/local/templates/stroyresurs/assets/sweetalert2.min.css','/local/templates/stroyresurs/components/arturgolubev/search.title/search_header/style.css','/local/templates/stroyresurs/components/bitrix/catalog.section.list/mobile/style.css','/local/templates/stroyresurs/styles.css']); </script>
+<script type="text/javascript">
+					(function () {
+						"use strict";
+
+						var counter = function ()
+						{
+							var cookie = (function (name) {
+								var parts = ("; " + document.cookie).split("; " + name + "=");
+								if (parts.length == 2) {
+									try {return JSON.parse(decodeURIComponent(parts.pop().split(";").shift()));}
+									catch (e) {}
+								}
+							})("BITRIX_CONVERSION_CONTEXT_s1");
+
+							if (cookie && cookie.EXPIRE >= BX.message("SERVER_TIME"))
+								return;
+
+							var request = new XMLHttpRequest();
+							request.open("POST", "/bitrix/tools/conversion/ajax_counter.php", true);
+							request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+							request.send(
+								"SITE_ID="+encodeURIComponent("s1")+
+								"&sessid="+encodeURIComponent(BX.bitrix_sessid())+
+								"&HTTP_REFERER="+encodeURIComponent(document.referrer)
+							);
+						};
+
+						if (window.frameRequestStart === true)
+							BX.addCustomEvent("onFrameDataReceived", counter);
+						else
+							BX.ready(counter);
+					})();
+				</script>
+<script type="text/javascript" src="/local/templates/stroyresurs/js/svgxuse.min.js"></script>
+
+
+
+<script type="text/javascript" src="/bitrix/cache/js/s1/stroyresurs/template_986000174a3e32113d4376541cbaadd1/template_986000174a3e32113d4376541cbaadd1_v1.js?1608052843346324"></script>
+<script type="text/javascript">var _ba = _ba || []; _ba.push(["aid", "4b4cfdfdb25a1021f59d81db2c312c11"]); _ba.push(["host", "www.tk-stroyresurs.ru"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script>
+
+
+</head>
+
+<body id="body"><script type='text/javascript' src='https://check.ddos-guard.net/check.js' async defer></script>
+	<div id="panel"></div>
+	<header class="header" data-city="Курск">
+		<div class="wrap_color_light">
+			<div class="container">
+				
+					
+    <div id="shop_req" class="tooltip__content__shop hidden">
+        <p class="tooltip__title_light-primary">
+            <span>Это ваш склад?</span>
+        </p>
+        <p class="tooltip__title">
+            Курск, ул, Дубровинского, 131        </p>
+        <a id="shop_no" class="tooltip__content__button">Нет</a><a id="shop_yes" class="tooltip__content__button accent">Да</a>
+    </div>
+
+
+    <div class="tooltip__content__shop hidden">
+                    <p class="tooltip__title_light-primary">
+            <span>Курск</span>
+                                                                            <p class="tooltip_shop">
+                        <a class="city-select__btn tooltip_shop shop_choose" data-shop-id="329" data-region-code="kursk" data-region-change="false">ул, Дубровинского, 131</a>
+                    </p>
+                                                                <p class="tooltip_shop">
+                        <a class="city-select__btn tooltip_shop shop_choose" data-shop-id="584" data-region-code="kursk" data-region-change="false">Магистральный пр-д 34б</a>
+                    </p>
+                                                                    </p>
+
+                    <p class="tooltip__title_light-primary">
+            <span>Белгород</span>
+                                                                                                                                    <p class="tooltip_shop">
+                        <a class="city-select__btn tooltip_shop shop_choose" data-shop-id="594" data-region-code="belgorod" data-region-change="true">ул. Зеленая поляна, 11</a>
+                    </p>
+                                        </p>
+
+                    <p class="tooltip__title_light-primary">
+            <span>Старый Оскол</span>
+                                                <p class="tooltip_shop">
+                        <a class="city-select__btn tooltip_shop shop_choose" data-shop-id="64511" data-region-code="Stoskol" data-region-change="true">мкр. Надежда,12</a>
+                    </p>
+                                                                                                                            </p>
+
+            </div>
+    <div class="header__top">
+    <div class="header__city-select city-select">
+        <a class="city-select__btn" href="#cityselectmenu">Курск, ул, Дубровинского, 131</a>
+    </div>
+
+<!--    <div class="work-time"><span class="work-time__value">8:00-19:00--><!--</span>-->
+    <div class="work-time"><span class="work-time__value">8:00-19:00</span>
+        <div class="tooltip tooltip_work-time"><span class="tooltip__icon">
+            <svg height="20" width="20">
+                <use href="/local/templates/stroyresurs/img/svg/icons.svg#info"></use>
+            </svg></span>
+            <div class="tooltip__content">
+                                                            <p class="tooltip__title">ул. Дубровинского, 131</p>
+                        <ul class="tooltip__work-time">
+                            <li><p class="text_color_primary">ПН-СБ</p><p>8:00-19:00</p></li><li><p class="text_color_primary">ВС</p><p>9:00-18:00</p></li>                        </ul>
+                                                                                <p class="tooltip__title">Магистральный пр-д 34б</p>
+                        <ul class="tooltip__work-time">
+                            <li><p class="text_color_primary">ПН-ПТ</p><p>8:00-18:00</p></li><li><p class="text_color_primary">СБ</p><p>9:00-18:00</p></li><li><p class="text_color_primary">ВС</p><p>выходной</p></li>                        </ul>
+                                                                                                            
+                
+            </div>
+        </div>
+    </div>
+					<div class="header__phone">
+						<a href="tel:88006000700">8 800 6000 700</a>
+					</div>
+					<nav class="header__nav site-nav">
+					    <a class="site-nav__link" href="/about/">
+		    	О компании	    	</a>
+									    <a class="site-nav__link" href="/contacts/">
+		    	Контакты	    	</a>
+									    <a class="site-nav__link" href="/about/more/news/">
+		    	Новости	    	</a>
+									    <a class="site-nav__link" href="/about/job/">
+		    	Вакансии	    	</a>
+									    <a class="site-nav__link" href="/about/more/sales/">
+		    	Акции	    	</a>
+									    <a class="site-nav__link" href="/about/projectsale/">
+		    	Проектные продажи	    	</a>
+									    <a class="site-nav__link" href="/about/partnership/">
+		    	Поставщикам	    	</a>
+									    <a class="site-nav__link" href="/about/brands/">
+		    	Партнеры	    	</a>
+									    <a class="site-nav__link" href="/about/wholesale/">
+		    	Крупный опт	    	</a>
+							    <!-- <a class="site-nav__link_etc btn_etc" href="#etc">
+	        <span class="btn__dots"></span>
+	    </a> -->
+				<div class="site-nav__etc btn_etc"><span class="btn__dots"></span>
+			<ul class="site-nav__drop-list"></ul>
+		</div>
+    </nav>				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="header__bottom">
+				<a class="header__logo" href="/">
+					<img class="header__logo-icon" src="/local/templates/stroyresurs/img/logo.png" alt="Логотип компании стройресурс"/>
+					<img class="header__logo-text" src="/local/templates/stroyresurs/img/logo-name.png" alt="Логотип компании стройресурс"/>
+				</a>
+				<button class="search__btn activate" id="seach_activate">
+					<svg height="23" width="23">
+                        <use href="/local/templates/stroyresurs/img/svg/icons.svg#search"></use>
+                    </svg>
+				</button>
+				<a class="m-menu" href="#">
+					<span class="m-menu__item"></span>
+				</a>
+				<a class="header__catalog-btn btn_catalog" href="/catalog">Каталог</a>
+				<div id="smart-title-search" class="header__search search"> 	<form action="/search/index.php">
+		<div class="bx-input-group">
+			<input id="smart-title-search-input" placeholder="" type="text" name="q" value="" autocomplete="off" class="search__input" onclick="document.getElementById('search_placeholder').style='display:none;';"/>             <div class="search__placeholder" id="search_placeholder" onclick="this.style='display:none;'; document.getElementById('smart-title-search-input').focus();">
+							<span>Найдите то, что нужно Вам! Введите запрос, например: 											<a class="text_color_blue" href="#search_2" onclick="document.getElementById('smart-title-search-input').value='пенопласт';">пенопласт</a>
+																<span class="display_inline_lg">,
+							<a class="text_color_blue" href="#search_2" onclick="document.getElementById('smart-title-search-input').value='ОСП';">ОСП</a>
+						</span>
+									</span>
+						</div>
+			<div class="search__placeholder plaseholder-mobile" id="search_placeholder" onclick="this.style='display:none;'; document.getElementById('smart-title-search-input').focus();">
+				<span>Введите поисковый запрос</span>
+			</div>
+			<span class="bx-input-group-btn">
+				<span class="bx-searchtitle-preloader view" id="smart-title-search_preloader_item"></span>
+				                <button class="search__btn" type="submit" name="s">
+                    <svg height="23" width="23">
+                        <use href="/local/templates/stroyresurs/img/svg/icons.svg#search"></use>
+                    </svg>
+                </button>
+			</span>
+		</div>
+	</form>
+</div>
+
+
+
+<script>
+	BX.ready(function(){
+		new JCTitleSearchAG({
+			'AJAX_PAGE' : '/',
+			'CONTAINER_ID': 'smart-title-search',
+			'INPUT_ID': 'smart-title-search-input',
+			'PRELODER_ID': 'smart-title-search_preloader_item',
+			'MIN_QUERY_LEN': 2
+		});
+	});
+
+	$(document).ready(function(e) {
+		
+		$('#smart-title-search-input').blur(function(e) {
+					if ($(this).val() == '') {
+						$('.search__placeholder').show();
+					}
+				});
+	})
+</script>
+
+          <a href="/personal/cart" class="btn btn--cart"><img src="/local/templates/stroyresurs/img/svg/cart.svg" width="28" alt=""> <span>Корзина</span></a>
+<!--				<a class="header__call-btn btn btn_primary" href="#feedback">Обратная связь</a>-->
+							</div>
+		</div>
+		<!--<div class="mobile-bar">
+		    <a class="mobile-bar__item">
+		        <span class="mobile-bar__icon mobile-bar__icon_logo"></span>
+		        <span class="mobile-bar__text">Каталог</span>
+		    </a>
+		    <a class="mobile-bar__item">
+		        <span class="mobile-bar__icon mobile-bar__icon_search"></span>
+		        <span class="mobile-bar__text">Поиск</span>
+		    </a>
+		    <a class="mobile-bar__item">
+		        <span class="mobile-bar__icon mobile-bar__icon_user"></span>
+		        <span class="mobile-bar__text">Кабинет</span>
+		    </a>
+		    <a class="mobile-bar__item">
+		        <span class="mobile-bar__icon mobile-bar__icon_cart filled"></span>
+		        <span class="mobile-bar__text">Корзина</span>
+		    </a>
+		</div>-->
+		<div class="mobile-menu">
+      <div class="mobile-menu__body"><a class="btn_catalog" href="#">Каталог</a>
+        <nav class="mobile-menu__nav"><a href="/about/">О компании</a><a href="/contacts/">Контакты</a><a href="/about/more/news/">Новости</a><a href="/about/more/sales/">Акции</a><a href="/about/brands/">Партнеры</a><a href="/about/partnership/">Поставщикам</a><a href="/about/wholesale/">Крупный опт</a><a href="/about/projectsale/">Проектные продажи</a><a href="/about/job/">Вакансии</a></nav>
+      </div>
+      <div class="mobile-menu__footer">
+        <div class="mobile-menu__city-select city-select"><a class="city-select__btn" href="#cityselectMmenu">Курск<span class="city-select__arrow">
+              <svg width="8" height="7">
+                <use href="/local/templates/stroyresurs/img/svg/icons.svg#arrow-down"></use>
+              </svg></span></a></div>
+      </div>
+    </div>
+        <div class="mobile-catalog">
+
+			
+<ul class="catalog-nav">
+	<li><a class="catalog-nav__item  " href="/catalog">Все товары</a></li>
+																					<li class="catalog-nav__point">
+					<a href="/catalog/asbestotsementnye_izdeliya" class="catalog-nav__item catalog-nav__item_list  ">Асбестоцементные изделия</a>
+					<button class="catalog-nav__item_btn" type="button">
+	                  <svg width="8" height="5">
+	                    <use href="/local/templates/stroyresurs/img/svg/icons.svg#arrow-down"></use>
+	                  </svg>
+	                </button>
+					<ul class="catalog-nav__sub-list">
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/asbestotsementnye_izdeliya/asbestotsementnye_truby">Асбестоцементные трубы</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/asbestotsementnye_izdeliya/shifer_ploskiy">Шифер плоский</a></li>
+											</ul>
+				</li>
+			 
+																							<li class="catalog-nav__point">
+					<a href="/catalog/vodostochnye_sistemy" class="catalog-nav__item catalog-nav__item_list  ">Водосточные системы</a>
+					<button class="catalog-nav__item_btn" type="button">
+	                  <svg width="8" height="5">
+	                    <use href="/local/templates/stroyresurs/img/svg/icons.svg#arrow-down"></use>
+	                  </svg>
+	                </button>
+					<ul class="catalog-nav__sub-list">
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/vodostochnye_sistemy/vinilovyy_vodostok">Виниловый водосток</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/vodostochnye_sistemy/metallicheskiy_vodostok">Металлический водосток</a></li>
+											</ul>
+				</li>
+			 
+																							<li class="catalog-nav__point">
+					<a href="/catalog/gipsokarton_i_gipsokartonnye_sistemy" class="catalog-nav__item catalog-nav__item_list  ">Гипсокартон и гипсокартонные системы</a>
+					<button class="catalog-nav__item_btn" type="button">
+	                  <svg width="8" height="5">
+	                    <use href="/local/templates/stroyresurs/img/svg/icons.svg#arrow-down"></use>
+	                  </svg>
+	                </button>
+					<ul class="catalog-nav__sub-list">
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/gipsokarton_i_gipsokartonnye_sistemy/akvapanel">Аквапанель</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/gipsokarton_i_gipsokartonnye_sistemy/akusticheskie_plity">Акустические плиты</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/gipsokarton_i_gipsokartonnye_sistemy/gipsovolokno_gipsovye_plity">Гипсоволокно, гипсовые плиты</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/gipsokarton_i_gipsokartonnye_sistemy/gipsokarton">Гипсокартон</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/gipsokarton_i_gipsokartonnye_sistemy/profil_i_komplektuyushchie_dlya_gkl">Профиль и комплектующие для ГКЛ</a></li>
+											</ul>
+				</li>
+			 
+																							<li class="catalog-nav__point">
+					<a href="/catalog/dveri" class="catalog-nav__item catalog-nav__item_list  ">Двери</a>
+					<button class="catalog-nav__item_btn" type="button">
+	                  <svg width="8" height="5">
+	                    <use href="/local/templates/stroyresurs/img/svg/icons.svg#arrow-down"></use>
+	                  </svg>
+	                </button>
+					<ul class="catalog-nav__sub-list">
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/dveri/vkhodnye_dveri">Входные двери</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/dveri/mezhkomnatnye_dveri">Межкомнатные двери</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/dveri/protivopozharnye">Противопожарные</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/dveri/furnitura">Фурнитура</a></li>
+											</ul>
+				</li>
+			 
+																							<li class="catalog-nav__point">
+					<a href="/catalog/drevesno_plitnye_materialy" class="catalog-nav__item catalog-nav__item_list  ">Древесно-плитные материалы</a>
+					<button class="catalog-nav__item_btn" type="button">
+	                  <svg width="8" height="5">
+	                    <use href="/local/templates/stroyresurs/img/svg/icons.svg#arrow-down"></use>
+	                  </svg>
+	                </button>
+					<ul class="catalog-nav__sub-list">
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/drevesno_plitnye_materialy/dvp">ДВП</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/drevesno_plitnye_materialy/dsp">ДСП</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/drevesno_plitnye_materialy/osp">ОСП</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/drevesno_plitnye_materialy/fanera">Фанера</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/drevesno_plitnye_materialy/tssp">ЦСП</a></li>
+											</ul>
+				</li>
+			 
+																							<li class="catalog-nav__point">
+					<a href="/catalog/drenazhnye_sistemy" class="catalog-nav__item catalog-nav__item_list  ">Дренажные системы</a>
+					<button class="catalog-nav__item_btn" type="button">
+	                  <svg width="8" height="5">
+	                    <use href="/local/templates/stroyresurs/img/svg/icons.svg#arrow-down"></use>
+	                  </svg>
+	                </button>
+					<ul class="catalog-nav__sub-list">
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/drenazhnye_sistemy/lyuki_chugunnye">Люки чугунные</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/drenazhnye_sistemy/materialy_zashchity_i_ukrepleniya_grunta">Материалы защиты и укрепления грунта</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/drenazhnye_sistemy/polimer_peschanye_lyuki">Полимер-песчаные люки</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/drenazhnye_sistemy/sistema_vodootvedeniya">Система водоотведения</a></li>
+											</ul>
+				</li>
+			 
+																							<li class="catalog-nav__point">
+					<a href="/catalog/zabory_ograzhdeniya" class="catalog-nav__item catalog-nav__item_list  ">Заборы, ограждения</a>
+					<button class="catalog-nav__item_btn" type="button">
+	                  <svg width="8" height="5">
+	                    <use href="/local/templates/stroyresurs/img/svg/icons.svg#arrow-down"></use>
+	                  </svg>
+	                </button>
+					<ul class="catalog-nav__sub-list">
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/zabory_ograzhdeniya/zabor_zhalyuzi">Забор-Жалюзи</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/zabory_ograzhdeniya/kolpak_na_stolb">Колпак на столб</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/zabory_ograzhdeniya/metallicheskiy_shtaketnik">Металлический штакетник</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/zabory_ograzhdeniya/modulnye_ograzhdeniya">Модульные ограждения</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/zabory_ograzhdeniya/ograzhdeniya_iz_dpk">Ограждения из ДПК</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/zabory_ograzhdeniya/panelnye_ograzhdeniya">Панельные ограждения</a></li>
+											</ul>
+				</li>
+			 
+																							<li class="catalog-nav__point">
+					<a href="/catalog/izdeliya_zhbi" class="catalog-nav__item catalog-nav__item_list  ">Изделия ЖБИ</a>
+					<button class="catalog-nav__item_btn" type="button">
+	                  <svg width="8" height="5">
+	                    <use href="/local/templates/stroyresurs/img/svg/icons.svg#arrow-down"></use>
+	                  </svg>
+	                </button>
+					<ul class="catalog-nav__sub-list">
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/izdeliya_zhbi/dorozhnye_elementy">Дорожные элементы</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/izdeliya_zhbi/kryshki_koltsa_dnishcha">Крышки, кольца, днища</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/izdeliya_zhbi/peremychki_zhbi">Перемычки ЖБИ</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/izdeliya_zhbi/fundamentnye_bloki_stenovye">Фундаментные блоки стеновые</a></li>
+											</ul>
+				</li>
+			 
+																							<li class="catalog-nav__point">
+					<a href="/catalog/instrument" class="catalog-nav__item catalog-nav__item_list  ">Инструмент</a>
+					<button class="catalog-nav__item_btn" type="button">
+	                  <svg width="8" height="5">
+	                    <use href="/local/templates/stroyresurs/img/svg/icons.svg#arrow-down"></use>
+	                  </svg>
+	                </button>
+					<ul class="catalog-nav__sub-list">
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/instrument/abrazivno_shlifovalnyy_instrument">Абразивно-шлифовальный инструмент</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/instrument/avtomobilnyy_instrument">Автомобильный инструмент</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/instrument/betonosmesiteli">Бетоносмесители</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/instrument/generatory">Генераторы</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/instrument/izmeritelnyy_instrument">Измерительный инструмент</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/instrument/krovelnyy_instrument">Кровельный инструмент</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/instrument/otdelochnyy_instrument">Отделочный инструмент</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/instrument/perchatki_rukavitsy">Перчатки, рукавицы</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/instrument/rezhushchiy_instrument">Режущий инструмент</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/instrument/sadovyy_inventar_khoztovary">Садовый инвентарь, хозтовары</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/instrument/silovoe_oborudovanie">Силовое оборудование</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/instrument/stolyarno_slesarnyy_instrument">Столярно-слесарный инструмент</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/instrument/elektroinstrument">Электроинструмент</a></li>
+											</ul>
+				</li>
+			 
+																							<li class="catalog-nav__point">
+					<a href="/catalog/kanalizatsiya_radiatory_vodoprovod" class="catalog-nav__item catalog-nav__item_list  ">Канализация, радиаторы, водопровод</a>
+					<button class="catalog-nav__item_btn" type="button">
+	                  <svg width="8" height="5">
+	                    <use href="/local/templates/stroyresurs/img/svg/icons.svg#arrow-down"></use>
+	                  </svg>
+	                </button>
+					<ul class="catalog-nav__sub-list">
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/kanalizatsiya_radiatory_vodoprovod/vnutrennyaya_kanalizatsiya">Внутренняя канализация</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/kanalizatsiya_radiatory_vodoprovod/vodoprovod">Водопровод</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/kanalizatsiya_radiatory_vodoprovod/kotly_i_vodonagrevateli">Котлы и водонагреватели</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/kanalizatsiya_radiatory_vodoprovod/lyuchki_reshetki">Лючки, решетки</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/kanalizatsiya_radiatory_vodoprovod/naruzhnaya_kanalizatsiya">Наружная канализация</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/kanalizatsiya_radiatory_vodoprovod/radiatory">Радиаторы</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/kanalizatsiya_radiatory_vodoprovod/sanfayans">Санфаянс</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/kanalizatsiya_radiatory_vodoprovod/smesiteli">Смесители</a></li>
+											</ul>
+				</li>
+			 
+																							<li class="catalog-nav__point">
+					<a href="/catalog/kirpich_iskusstvennyy_kamen" class="catalog-nav__item catalog-nav__item_list  ">Кирпич, искусственный камень</a>
+					<button class="catalog-nav__item_btn" type="button">
+	                  <svg width="8" height="5">
+	                    <use href="/local/templates/stroyresurs/img/svg/icons.svg#arrow-down"></use>
+	                  </svg>
+	                </button>
+					<ul class="catalog-nav__sub-list">
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/kirpich_iskusstvennyy_kamen/gipsovyy_iskusstvennyy_kamen">Гипсовый искусственный камень</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/kirpich_iskusstvennyy_kamen/dekorativnyy_kirpich">Декоративный кирпич</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/kirpich_iskusstvennyy_kamen/iskusstvennyy_kamen">Искусственный камень</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/kirpich_iskusstvennyy_kamen/kirpich_ruchnoy_formovki">Кирпич ручной формовки</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/kirpich_iskusstvennyy_kamen/klinkernyy_kirpich_klinkernaya_plitka">Клинкерный кирпич, клинкерная плитка</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/kirpich_iskusstvennyy_kamen/oblitsovochnyy_kirpich">Облицовочный кирпич</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/kirpich_iskusstvennyy_kamen/ryadovoy_kirpich">Рядовой кирпич</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/kirpich_iskusstvennyy_kamen/silikatnyy_kirpich">Силикатный кирпич</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/kirpich_iskusstvennyy_kamen/shamotnyy_kirpich">Шамотный кирпич</a></li>
+											</ul>
+				</li>
+			 
+																							<li class="catalog-nav__point">
+					<a href="/catalog/kompozitnaya_armatura_setka" class="catalog-nav__item catalog-nav__item_list  ">Композитная арматура, сетка</a>
+					<button class="catalog-nav__item_btn" type="button">
+	                  <svg width="8" height="5">
+	                    <use href="/local/templates/stroyresurs/img/svg/icons.svg#arrow-down"></use>
+	                  </svg>
+	                </button>
+					<ul class="catalog-nav__sub-list">
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/kompozitnaya_armatura_setka/stekloplastikovaya_armatura">Стеклопластиковая арматура</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/kompozitnaya_armatura_setka/stekloplastikovaya_setka_gibkie_svyazi">Стеклопластиковая сетка, гибкие связи</a></li>
+											</ul>
+				</li>
+			 
+																							<li class="catalog-nav__point">
+					<a href="/catalog/krepyezh" class="catalog-nav__item catalog-nav__item_list  ">Крепёж</a>
+					<button class="catalog-nav__item_btn" type="button">
+	                  <svg width="8" height="5">
+	                    <use href="/local/templates/stroyresurs/img/svg/icons.svg#arrow-down"></use>
+	                  </svg>
+	                </button>
+					<ul class="catalog-nav__sub-list">
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/krepyezh/gvozdi">Гвозди</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/krepyezh/dyubeli">Дюбели</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/krepyezh/zaklyepki">Заклёпки</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/krepyezh/krepyezh_dlya_polikarbonata">Крепёж для поликарбоната</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/krepyezh/krepezh_dlya_teploizolyatsii_i_krovli">Крепеж для теплоизоляции и кровли</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/krepyezh/kreplenie_dlya_vagonki">Крепление для вагонки</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/krepyezh/krestiki_dlya_plitki">Крестики для плитки</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/krepyezh/metricheskiy_krepyezh">Метрический крепёж</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/krepyezh/mekhanicheskie_ankery">Механические анкеры</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/krepyezh/perforirovannyy_krepyezh">Перфорированный крепёж</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/krepyezh/samorezy_shurupy">Саморезы, шурупы</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/krepyezh/skoby_fiksatory_petli">Скобы, фиксаторы, петли</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/krepyezh/takelazh">Такелаж</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/krepyezh/khomuty">Хомуты</a></li>
+											</ul>
+				</li>
+			 
+																							<li class="catalog-nav__point">
+					<a href="/catalog/krovelnye_pokrytiya_i_aksessuary_dlya_skatnykh_krovel" class="catalog-nav__item catalog-nav__item_list  ">Кровельные покрытия и аксессуары для скатных кровель</a>
+					<button class="catalog-nav__item_btn" type="button">
+	                  <svg width="8" height="5">
+	                    <use href="/local/templates/stroyresurs/img/svg/icons.svg#arrow-down"></use>
+	                  </svg>
+	                </button>
+					<ul class="catalog-nav__sub-list">
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/krovelnye_pokrytiya_i_aksessuary_dlya_skatnykh_krovel/bitumnaya_fasadnaya_plitka">Битумная фасадная плитка</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/krovelnye_pokrytiya_i_aksessuary_dlya_skatnykh_krovel/ventilyatsiya">Вентиляция</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/krovelnye_pokrytiya_i_aksessuary_dlya_skatnykh_krovel/gibkaya_cherepitsa">Гибкая черепица</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/krovelnye_pokrytiya_i_aksessuary_dlya_skatnykh_krovel/dekorativnye_elementy">Декоративные элементы</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/krovelnye_pokrytiya_i_aksessuary_dlya_skatnykh_krovel/keramicheskaya_cherepitsa">Керамическая черепица</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/krovelnye_pokrytiya_i_aksessuary_dlya_skatnykh_krovel/kompozitnaya_cherepitsa">Композитная черепица</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/krovelnye_pokrytiya_i_aksessuary_dlya_skatnykh_krovel/mansardnye_okna">Мансардные окна</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/krovelnye_pokrytiya_i_aksessuary_dlya_skatnykh_krovel/metallocherepitsa">Металлочерепица</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/krovelnye_pokrytiya_i_aksessuary_dlya_skatnykh_krovel/mineralnaya_tsementno_peschanaya_cherepitsa">Минеральная (цементно-песчаная) черепица</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/krovelnye_pokrytiya_i_aksessuary_dlya_skatnykh_krovel/ondulin">Ондулин</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/krovelnye_pokrytiya_i_aksessuary_dlya_skatnykh_krovel/snegozaderzhateli_i_molnieotvody">Снегозадержатели и молниеотводы</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/krovelnye_pokrytiya_i_aksessuary_dlya_skatnykh_krovel/sofity">Софиты</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/krovelnye_pokrytiya_i_aksessuary_dlya_skatnykh_krovel/faltsevaya_krovlya">Фальцевая кровля</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/krovelnye_pokrytiya_i_aksessuary_dlya_skatnykh_krovel/cherdachnye_i_krovelnye_lestnitsy">Чердачные и кровельные лестницы</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/krovelnye_pokrytiya_i_aksessuary_dlya_skatnykh_krovel/shifer">Шифер</a></li>
+											</ul>
+				</li>
+			 
+																							<li class="catalog-nav__point">
+					<a href="/catalog/krovelnye_rulonnye_materialy_gidroizolyatsiya" class="catalog-nav__item catalog-nav__item_list  ">Кровельные рулонные материалы, гидроизоляция</a>
+					<button class="catalog-nav__item_btn" type="button">
+	                  <svg width="8" height="5">
+	                    <use href="/local/templates/stroyresurs/img/svg/icons.svg#arrow-down"></use>
+	                  </svg>
+	                </button>
+					<ul class="catalog-nav__sub-list">
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/krovelnye_rulonnye_materialy_gidroizolyatsiya/bitum_mastika_praymer">Битум, мастика, праймер</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/krovelnye_rulonnye_materialy_gidroizolyatsiya/naplavlyaemaya_krovlya">Наплавляемая кровля</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/krovelnye_rulonnye_materialy_gidroizolyatsiya/polimernye_membrany">Полимерные мембраны</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/krovelnye_rulonnye_materialy_gidroizolyatsiya/profilirovannye_membrany">Профилированные мембраны</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/krovelnye_rulonnye_materialy_gidroizolyatsiya/ruberoid_pergamin">Рубероид, пергамин</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/krovelnye_rulonnye_materialy_gidroizolyatsiya/rulonnaya_cherepitsa">Рулонная черепица</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/krovelnye_rulonnye_materialy_gidroizolyatsiya/ventilyatsiya_1">Вентиляция</a></li>
+											</ul>
+				</li>
+			 
+																							<li class="catalog-nav__point">
+					<a href="/catalog/lakokrasochnye_materialy_dobavki" class="catalog-nav__item catalog-nav__item_list  ">Лакокрасочные материалы, добавки</a>
+					<button class="catalog-nav__item_btn" type="button">
+	                  <svg width="8" height="5">
+	                    <use href="/local/templates/stroyresurs/img/svg/icons.svg#arrow-down"></use>
+	                  </svg>
+	                </button>
+					<ul class="catalog-nav__sub-list">
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/lakokrasochnye_materialy_dobavki/antiseptiki">Антисептики</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/lakokrasochnye_materialy_dobavki/aerozolnye_kraski">Аэрозольные краски</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/lakokrasochnye_materialy_dobavki/gruntovki">Грунтовки</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/lakokrasochnye_materialy_dobavki/dekorativnye_pokrytiya">Декоративные покрытия</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/lakokrasochnye_materialy_dobavki/dobavki_plastifikatory_pigmenty">Добавки, пластификаторы, пигменты</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/lakokrasochnye_materialy_dobavki/interernye_kraski">Интерьерные краски</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/lakokrasochnye_materialy_dobavki/koloranty_ruchnye">Колоранты ручные</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/lakokrasochnye_materialy_dobavki/kraski_dlya_sadovykh_derevev">Краски для садовых деревьев</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/lakokrasochnye_materialy_dobavki/laki_masla_olifa">Лаки, масла, олифа</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/lakokrasochnye_materialy_dobavki/materialy_dlya_restavratsii">Материалы для реставрации</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/lakokrasochnye_materialy_dobavki/rastvoritel_uayt_spirit_zhidkoe_steklo">Растворитель, уайт-спирит, жидкое стекло</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/lakokrasochnye_materialy_dobavki/rezinovaya_kraska">Резиновая краска</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/lakokrasochnye_materialy_dobavki/fasadnye_kraski">Фасадные краски</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/lakokrasochnye_materialy_dobavki/emali">Эмали</a></li>
+											</ul>
+				</li>
+			 
+																							<li class="catalog-nav__point">
+					<a href="/catalog/metalloprokat_truby" class="catalog-nav__item catalog-nav__item_list  ">Металлопрокат, трубы</a>
+					<button class="catalog-nav__item_btn" type="button">
+	                  <svg width="8" height="5">
+	                    <use href="/local/templates/stroyresurs/img/svg/icons.svg#arrow-down"></use>
+	                  </svg>
+	                </button>
+					<ul class="catalog-nav__sub-list">
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/metalloprokat_truby/list_polosa">Лист, Полоса</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/metalloprokat_truby/metallicheskaya_armatura">Металлическая арматура</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/metalloprokat_truby/profilnaya_truba">Профильная труба</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/metalloprokat_truby/truba_vgp_i_es">Труба ВГП и ЭС</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/metalloprokat_truby/ugolok">Уголок</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/metalloprokat_truby/fasonnyy_prokat">Фасонный прокат</a></li>
+											</ul>
+				</li>
+			 
+																							<li class="catalog-nav__point">
+					<a href="/catalog/napolnye_pokrytiya" class="catalog-nav__item catalog-nav__item_list  ">Напольные покрытия</a>
+					<button class="catalog-nav__item_btn" type="button">
+	                  <svg width="8" height="5">
+	                    <use href="/local/templates/stroyresurs/img/svg/icons.svg#arrow-down"></use>
+	                  </svg>
+	                </button>
+					<ul class="catalog-nav__sub-list">
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/napolnye_pokrytiya/iskusstvennaya_trava_rezinovye_pokrytiya">Искусственная трава, резиновые покрытия</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/napolnye_pokrytiya/kovrovye_pokrytiya">Ковровые покрытия</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/napolnye_pokrytiya/laminat">Ламинат</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/napolnye_pokrytiya/linoleum">Линолеум</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/napolnye_pokrytiya/modulnye_pvkh_pokrytiya">Модульные ПВХ-покрытия</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/napolnye_pokrytiya/napolnye_profili_porogi">Напольные профили, пороги</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/napolnye_pokrytiya/parketnaya_doska">Паркетная доска</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/napolnye_pokrytiya/plintus_napolnyy">Плинтус напольный</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/napolnye_pokrytiya/podlozhka">Подложка</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/napolnye_pokrytiya/probkovoe_pokrytie">Пробковое покрытие</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/napolnye_pokrytiya/sportivnye_pokrytiya">Спортивные покрытия</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/napolnye_pokrytiya/sredstva_dlya_ukladki_napolnykh_pokrytiy">Средства для укладки напольных покрытий</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/napolnye_pokrytiya/sredstva_dlya_ukhoda_za_napolnymi_pokrytiyami">Средства для ухода за напольными покрытиями</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/napolnye_pokrytiya/shnur_svarochnyy">Шнур сварочный</a></li>
+											</ul>
+				</li>
+			 
+																							<li class="catalog-nav__point">
+					<a href="/catalog/peny_germetiki_klei" class="catalog-nav__item catalog-nav__item_list  ">Пены, герметики, клеи</a>
+					<button class="catalog-nav__item_btn" type="button">
+	                  <svg width="8" height="5">
+	                    <use href="/local/templates/stroyresurs/img/svg/icons.svg#arrow-down"></use>
+	                  </svg>
+	                </button>
+					<ul class="catalog-nav__sub-list">
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/peny_germetiki_klei/germetiki">Герметики</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/peny_germetiki_klei/kley_dlya_dereva">Клей для дерева</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/peny_germetiki_klei/kley_dlya_oboev">Клей для обоев</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/peny_germetiki_klei/kley_pva">Клей ПВА</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/peny_germetiki_klei/kley_universalnyy">Клей универсальный</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/peny_germetiki_klei/montazhnaya_pena">Монтажная пена</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/peny_germetiki_klei/ochistiteli">Очистители</a></li>
+											</ul>
+				</li>
+			 
+																							<li class="catalog-nav__point">
+					<a href="/catalog/pilomaterialy" class="catalog-nav__item catalog-nav__item_list  ">Пиломатериалы</a>
+					<button class="catalog-nav__item_btn" type="button">
+	                  <svg width="8" height="5">
+	                    <use href="/local/templates/stroyresurs/img/svg/icons.svg#arrow-down"></use>
+	                  </svg>
+	                </button>
+					<ul class="catalog-nav__sub-list">
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/pilomaterialy/blok_khaus">Блок-хаус</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/pilomaterialy/doska_pola">Доска пола</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/pilomaterialy/doska_brus_reyka">Доска, брус, рейка</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/pilomaterialy/evrovagonka">Евровагонка</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/pilomaterialy/imitatsiya_brusa">Имитация бруса</a></li>
+											</ul>
+				</li>
+			 
+																							<li class="catalog-nav__point">
+					<a href="/catalog/plastikovye_yemkosti" class="catalog-nav__item catalog-nav__item_list ">Пластиковые ёмкости</a>
+				</li>
+																										<li class="catalog-nav__point">
+					<a href="/catalog/plitka_i_keramogranit" class="catalog-nav__item catalog-nav__item_list  ">Плитка и керамогранит</a>
+					<button class="catalog-nav__item_btn" type="button">
+	                  <svg width="8" height="5">
+	                    <use href="/local/templates/stroyresurs/img/svg/icons.svg#arrow-down"></use>
+	                  </svg>
+	                </button>
+					<ul class="catalog-nav__sub-list">
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/plitka_i_keramogranit/keramogranit">Керамогранит</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/plitka_i_keramogranit/mozaika">Мозаика</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/plitka_i_keramogranit/oblitsovochnaya_plitka">Облицовочная плитка</a></li>
+											</ul>
+				</li>
+			 
+																							<li class="catalog-nav__point">
+					<a href="/catalog/podvesnoy_potolok" class="catalog-nav__item catalog-nav__item_list  ">Подвесной потолок</a>
+					<button class="catalog-nav__item_btn" type="button">
+	                  <svg width="8" height="5">
+	                    <use href="/local/templates/stroyresurs/img/svg/icons.svg#arrow-down"></use>
+	                  </svg>
+	                </button>
+					<ul class="catalog-nav__sub-list">
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/podvesnoy_potolok/grilyato">Грильято</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/podvesnoy_potolok/ostrova_i_ekrany">Острова и экраны</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/podvesnoy_potolok/plity">Плиты</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/podvesnoy_potolok/potolochnaya_podsistema">Потолочная подсистема</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/podvesnoy_potolok/reechnyy_potolok">Реечный потолок</a></li>
+											</ul>
+				</li>
+			 
+																							<li class="catalog-nav__point">
+					<a href="/catalog/podsistema_dlya_ventiliruemykh_fasadov" class="catalog-nav__item catalog-nav__item_list ">Подсистема для вентилируемых фасадов</a>
+				</li>
+																										<li class="catalog-nav__point">
+					<a href="/catalog/polikarbonat_teplitsy" class="catalog-nav__item catalog-nav__item_list  ">Поликарбонат, теплицы</a>
+					<button class="catalog-nav__item_btn" type="button">
+	                  <svg width="8" height="5">
+	                    <use href="/local/templates/stroyresurs/img/svg/icons.svg#arrow-down"></use>
+	                  </svg>
+	                </button>
+					<ul class="catalog-nav__sub-list">
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/polikarbonat_teplitsy/monolitnyy_polikarbonat_pet_listy_akrilovoe_steklo">Монолитный поликарбонат, ПЭТ-листы, акриловое стекло</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/polikarbonat_teplitsy/sotovyy_polikarbonat">Сотовый поликарбонат</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/polikarbonat_teplitsy/teplitsy">Теплицы</a></li>
+											</ul>
+				</li>
+			 
+																							<li class="catalog-nav__point">
+					<a href="/catalog/profil_pvkh_tsokolnyy" class="catalog-nav__item catalog-nav__item_list  ">Профиль ПВХ, цокольный</a>
+					<button class="catalog-nav__item_btn" type="button">
+	                  <svg width="8" height="5">
+	                    <use href="/local/templates/stroyresurs/img/svg/icons.svg#arrow-down"></use>
+	                  </svg>
+	                </button>
+					<ul class="catalog-nav__sub-list">
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/profil_pvkh_tsokolnyy/okonnye_i_deformatsionnye_profili">Оконные и деформационные профили</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/profil_pvkh_tsokolnyy/otdelochnye_profili">Отделочные профили</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/profil_pvkh_tsokolnyy/uglovye_profili_s_setkoy">Угловые профили с сеткой</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/profil_pvkh_tsokolnyy/tsokolnye_profili">Цокольные профили</a></li>
+											</ul>
+				</li>
+			 
+																							<li class="catalog-nav__point">
+					<a href="/catalog/proflist_gladkiy_list_shtrips" class="catalog-nav__item catalog-nav__item_list  ">Профлист, гладкий лист, штрипс</a>
+					<button class="catalog-nav__item_btn" type="button">
+	                  <svg width="8" height="5">
+	                    <use href="/local/templates/stroyresurs/img/svg/icons.svg#arrow-down"></use>
+	                  </svg>
+	                </button>
+					<ul class="catalog-nav__sub-list">
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/proflist_gladkiy_list_shtrips/gladkiy_list_shtrips">Гладкий лист, штрипс</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/proflist_gladkiy_list_shtrips/proflist">Профлист</a></li>
+											</ul>
+				</li>
+			 
+																							<li class="catalog-nav__point">
+					<a href="/catalog/sayding_fasadnye_paneli" class="catalog-nav__item catalog-nav__item_list  ">Сайдинг, фасадные панели</a>
+					<button class="catalog-nav__item_btn" type="button">
+	                  <svg width="8" height="5">
+	                    <use href="/local/templates/stroyresurs/img/svg/icons.svg#arrow-down"></use>
+	                  </svg>
+	                </button>
+					<ul class="catalog-nav__sub-list">
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/sayding_fasadnye_paneli/linearnye_paneli">Линеарные панели</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/sayding_fasadnye_paneli/sayding_vinilovyy">Сайдинг виниловый</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/sayding_fasadnye_paneli/sayding_metallicheskiy">Сайдинг металлический</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/sayding_fasadnye_paneli/sayding_fibrotsementnyy">Сайдинг фиброцементный</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/sayding_fasadnye_paneli/fasadnye_paneli">Фасадные панели</a></li>
+											</ul>
+				</li>
+			 
+																							<li class="catalog-nav__point">
+					<a href="/catalog/setka_metallicheskaya" class="catalog-nav__item catalog-nav__item_list  ">Сетка металлическая</a>
+					<button class="catalog-nav__item_btn" type="button">
+	                  <svg width="8" height="5">
+	                    <use href="/local/templates/stroyresurs/img/svg/icons.svg#arrow-down"></use>
+	                  </svg>
+	                </button>
+					<ul class="catalog-nav__sub-list">
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/setka_metallicheskaya/provoloka_vyazalnaya">Проволока вязальная</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/setka_metallicheskaya/setka_svarnaya">Сетка сварная</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/setka_metallicheskaya/setka_tspvs">Сетка ЦПВС</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/setka_metallicheskaya/setka_rabitsa_dfl">Сетка-рабица, ДФЛ</a></li>
+											</ul>
+				</li>
+			 
+																							<li class="catalog-nav__point">
+					<a href="/catalog/setka_steklotkanevaya_steklooboi_oboi" class="catalog-nav__item catalog-nav__item_list  ">Сетка стеклотканевая, стеклообои, обои</a>
+					<button class="catalog-nav__item_btn" type="button">
+	                  <svg width="8" height="5">
+	                    <use href="/local/templates/stroyresurs/img/svg/icons.svg#arrow-down"></use>
+	                  </svg>
+	                </button>
+					<ul class="catalog-nav__sub-list">
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/setka_steklotkanevaya_steklooboi_oboi/oboi">Обои</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/setka_steklotkanevaya_steklooboi_oboi/plintus_potolochnyy">Плинтус потолочный</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/setka_steklotkanevaya_steklooboi_oboi/setka_malyarnaya_shtukaturnaya">Сетка малярная, штукатурная</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/setka_steklotkanevaya_steklooboi_oboi/setka_fasadnaya_zashchitnaya">Сетка фасадная, защитная</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/setka_steklotkanevaya_steklooboi_oboi/steklooboi_flizelin">Стеклообои, флизелин</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/setka_steklotkanevaya_steklooboi_oboi/steklokholst">Стеклохолст</a></li>
+											</ul>
+				</li>
+			 
+																							<li class="catalog-nav__point">
+					<a href="/catalog/stenovye_paneli" class="catalog-nav__item catalog-nav__item_list  ">Стеновые панели</a>
+					<button class="catalog-nav__item_btn" type="button">
+	                  <svg width="8" height="5">
+	                    <use href="/local/templates/stroyresurs/img/svg/icons.svg#arrow-down"></use>
+	                  </svg>
+	                </button>
+					<ul class="catalog-nav__sub-list">
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/stenovye_paneli/paneli_mdf">Панели МДФ</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/stenovye_paneli/paneli_pvkh">Панели ПВХ</a></li>
+											</ul>
+				</li>
+			 
+																							<li class="catalog-nav__point">
+					<a href="/catalog/stroitelnye_bloki" class="catalog-nav__item catalog-nav__item_list  ">Строительные блоки</a>
+					<button class="catalog-nav__item_btn" type="button">
+	                  <svg width="8" height="5">
+	                    <use href="/local/templates/stroyresurs/img/svg/icons.svg#arrow-down"></use>
+	                  </svg>
+	                </button>
+					<ul class="catalog-nav__sub-list">
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/stroitelnye_bloki/gazosilikatnye_bloki">Газосиликатные блоки</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/stroitelnye_bloki/keramzitobetonnye_bloki">Керамзитобетонные блоки</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/stroitelnye_bloki/keramicheskie_bloki">Керамические блоки</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/stroitelnye_bloki/peremychki_gazobetonnye">Перемычки газобетонные</a></li>
+											</ul>
+				</li>
+			 
+																							<li class="catalog-nav__point">
+					<a href="/catalog/stroitelnye_lenty_skotch" class="catalog-nav__item catalog-nav__item_list  ">Строительные ленты, скотч</a>
+					<button class="catalog-nav__item_btn" type="button">
+	                  <svg width="8" height="5">
+	                    <use href="/local/templates/stroyresurs/img/svg/icons.svg#arrow-down"></use>
+	                  </svg>
+	                </button>
+					<ul class="catalog-nav__sub-list">
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/stroitelnye_lenty_skotch/dvukhstoronnie_lenty_i_skotchi">Двухсторонние ленты и скотчи</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/stroitelnye_lenty_skotch/dempfernaya_lenta_shnury">Демпферная лента, шнуры</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/stroitelnye_lenty_skotch/izolyatsionnye_lenty">Изоляционные ленты</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/stroitelnye_lenty_skotch/krovelnaya_lenta">Кровельная лента</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/stroitelnye_lenty_skotch/malyarnaya_lenta">Малярная лента</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/stroitelnye_lenty_skotch/metallizirovannyy_skotch">Металлизированный скотч</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/stroitelnye_lenty_skotch/serpyanka_lenty_dlya_stykov">Серпянка, ленты для стыков</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/stroitelnye_lenty_skotch/signalnaya_lenta">Сигнальная лента</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/stroitelnye_lenty_skotch/upakovochnyy_skotch_plyenka">Упаковочный скотч, плёнка</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/stroitelnye_lenty_skotch/uplotnitelnye_i_armiruyushchie_lenty">Уплотнительные и армирующие ленты</a></li>
+											</ul>
+				</li>
+			 
+																							<li class="catalog-nav__point">
+					<a href="/catalog/stroitelnye_plenki_i_membrany" class="catalog-nav__item catalog-nav__item_list  ">Строительные пленки и мембраны</a>
+					<button class="catalog-nav__item_btn" type="button">
+	                  <svg width="8" height="5">
+	                    <use href="/local/templates/stroyresurs/img/svg/icons.svg#arrow-down"></use>
+	                  </svg>
+	                </button>
+					<ul class="catalog-nav__sub-list">
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/stroitelnye_plenki_i_membrany/vetrozashchita">Ветрозащита</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/stroitelnye_plenki_i_membrany/vspenennyy_polietilen_podlozhka">Вспененный полиэтилен (подложка)</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/stroitelnye_plenki_i_membrany/geotekstil">Геотекстиль</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/stroitelnye_plenki_i_membrany/gidroizolyatsionnye_plenki">Гидроизоляционные пленки</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/stroitelnye_plenki_i_membrany/membrany">Мембраны</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/stroitelnye_plenki_i_membrany/negoryuchie_membrany">Негорючие мембраны</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/stroitelnye_plenki_i_membrany/otrazhayushchie_plyenki">Отражающие плёнки</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/stroitelnye_plenki_i_membrany/paroizolyatsiya">Пароизоляция</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/stroitelnye_plenki_i_membrany/polietilenovye_plyenki">Полиэтиленовые плёнки</a></li>
+											</ul>
+				</li>
+			 
+																							<li class="catalog-nav__point">
+					<a href="/catalog/sukhie_stroitelnye_smesi" class="catalog-nav__item catalog-nav__item_list  ">Сухие строительные смеси</a>
+					<button class="catalog-nav__item_btn" type="button">
+	                  <svg width="8" height="5">
+	                    <use href="/local/templates/stroyresurs/img/svg/icons.svg#arrow-down"></use>
+	                  </svg>
+	                </button>
+					<ul class="catalog-nav__sub-list">
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/sukhie_stroitelnye_smesi/gartsovochnye_sostavy">Гарцовочные составы</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/sukhie_stroitelnye_smesi/gidroizolyatsionnye_smesi">Гидроизоляционные смеси</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/sukhie_stroitelnye_smesi/zatirki_dlya_shvov">Затирки для швов</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/sukhie_stroitelnye_smesi/montazhno_kladochnye_smesi">Монтажно-кладочные смеси</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/sukhie_stroitelnye_smesi/plitochnye_klei">Плиточные клеи</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/sukhie_stroitelnye_smesi/smesi_dlya_remonta_betona">Смеси для ремонта бетона</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/sukhie_stroitelnye_smesi/smesi_dlya_ustroystva_polov">Смеси для устройства полов</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/sukhie_stroitelnye_smesi/smesi_dlya_ustroystva_fasadov">Смеси для устройства фасадов</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/sukhie_stroitelnye_smesi/shpatlyevki">Шпатлёвки</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/sukhie_stroitelnye_smesi/shtukaturki">Штукатурки</a></li>
+											</ul>
+				</li>
+			 
+																							<li class="catalog-nav__point">
+					<a href="/catalog/teploizolyatsiya" class="catalog-nav__item catalog-nav__item_list  ">Теплоизоляция</a>
+					<button class="catalog-nav__item_btn" type="button">
+	                  <svg width="8" height="5">
+	                    <use href="/local/templates/stroyresurs/img/svg/icons.svg#arrow-down"></use>
+	                  </svg>
+	                </button>
+					<ul class="catalog-nav__sub-list">
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/teploizolyatsiya/bazaltovaya_vata">Базальтовая вата</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/teploizolyatsiya/penopolistirol_penoplast">Пенополистирол (Пенопласт)</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/teploizolyatsiya/steklovolokno">Стекловолокно</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/teploizolyatsiya/sendvich_panel">Сэндвич-панель</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/teploizolyatsiya/tekhnicheskaya_izolyatsiya">Техническая изоляция</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/teploizolyatsiya/ekstrudirovannyy_penopolistirol">Экструдированный пенополистирол</a></li>
+											</ul>
+				</li>
+			 
+																							<li class="catalog-nav__point">
+					<a href="/catalog/terrasnaya_doska" class="catalog-nav__item catalog-nav__item_list  ">Террасная доска</a>
+					<button class="catalog-nav__item_btn" type="button">
+	                  <svg width="8" height="5">
+	                    <use href="/local/templates/stroyresurs/img/svg/icons.svg#arrow-down"></use>
+	                  </svg>
+	                </button>
+					<ul class="catalog-nav__sub-list">
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/terrasnaya_doska/dpk_profile">DPK-Profile</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/terrasnaya_doska/terrapol">Terrapol</a></li>
+											</ul>
+				</li>
+			 
+																							<li class="catalog-nav__point">
+					<a href="/catalog/trotuarnaya_plitka_bruschatka" class="catalog-nav__item catalog-nav__item_list  ">Тротуарная плитка, брусчатка</a>
+					<button class="catalog-nav__item_btn" type="button">
+	                  <svg width="8" height="5">
+	                    <use href="/local/templates/stroyresurs/img/svg/icons.svg#arrow-down"></use>
+	                  </svg>
+	                </button>
+					<ul class="catalog-nav__sub-list">
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/trotuarnaya_plitka_bruschatka/arkhitekturnye_formy">Архитектурные формы</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/trotuarnaya_plitka_bruschatka/bordyur_porebrik">Бордюр, поребрик</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/trotuarnaya_plitka_bruschatka/vibropressovannaya_plitka">Вибропрессованная плитка</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/trotuarnaya_plitka_bruschatka/klinkernaya_bruschatka">Клинкерная брусчатка</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/trotuarnaya_plitka_bruschatka/polimernaya_plitka">Полимерная плитка</a></li>
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/trotuarnaya_plitka_bruschatka/kholodnyy_asfalt_shcheben">Холодный асфальт, щебень</a></li>
+											</ul>
+				</li>
+			 
+																							<li class="catalog-nav__point">
+					<a href="/catalog/tsement_gips_sazha_1" class="catalog-nav__item catalog-nav__item_list  ">Цемент, гипс, сажа</a>
+					<button class="catalog-nav__item_btn" type="button">
+	                  <svg width="8" height="5">
+	                    <use href="/local/templates/stroyresurs/img/svg/icons.svg#arrow-down"></use>
+	                  </svg>
+	                </button>
+					<ul class="catalog-nav__sub-list">
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/tsement_gips_sazha_1/gips_izvest_sazha_mel">Гипс, известь, сажа, мел</a></li>
+											</ul>
+				</li>
+			 
+																							<li class="catalog-nav__point">
+					<a href="/catalog/elektrotovary" class="catalog-nav__item catalog-nav__item_list  ">Электротовары</a>
+					<button class="catalog-nav__item_btn" type="button">
+	                  <svg width="8" height="5">
+	                    <use href="/local/templates/stroyresurs/img/svg/icons.svg#arrow-down"></use>
+	                  </svg>
+	                </button>
+					<ul class="catalog-nav__sub-list">
+																				<li><a class="catalog-nav__item subcategory_li " href="/catalog/elektrotovary/svetilniki_">Светильники </a></li>
+											</ul>
+				</li>
+			 
+			</ul>		</div>
+	</header>
+	<main class="main main_index"><div class="container">
+	 
+<div class="blocks-wrap">
+	<div class="block block_xl owl-carousel owl-theme">
+                            <div id="bx_3218110189_64824" class="slider-item" style="background-image:url('/upload/iblock/f7f/f7f0f8f9b8ae70dcdb7f3d55a3df665b.png')">
+            <div class="block__content">
+                <h1 class="title">Скидки до 15% новоселам</h1>
+                <div class="slider-item__text-box">
+                    <p>Отличная новость для <span style="color: #ffcc23;">новосёлов</span>! Теперь в нашей компании Вы можете купить стройматериалы со скидкой до 15%</p>
+                </div>
+            </div>
+            <div class="block__btn-wrap">
+                                    <div class="block__btn-item">
+                        <a class="btn btn_accent" href="https://www.tk-stroyresurs.ru/about/more/news/skidki-do-15-na-stroymaterialy-novoselam/">
+                            <span class="display_desk">Подробнее</span> 
+                            <span class="display_mob">Подробнее</span>
+                        </a>
+                      <p class="block__btn-desc text_desc">Условия Дисконтной программы</p>
+                    </div>
+                                            </div>
+        </div>
+    </div><div class="block owl-carousel owl-theme block-slider">
+                                    <a id="bx_651765591_67440" class="slider-item" href="https://www.tk-stroyresurs.ru/about/more/news/estima-marmulla-izyskannaya-kollektsiya-keramicheskogo-granita/" style="background-image:url('/upload/iblock/da0/da0822e96af5780a32587bbce95eb2fa.png')">
+         <div class="block__content on_black">
+            <h2 class="title">Эстима Marmulla</h2>
+            <p><span style="color: #ffcc23;">новая</span> коллекция
+керамогранта&nbsp;</p>
+        </div>
+                    <div class="btn btn_accent">Подробнее</div>
+                </a>
+                                    <a id="bx_651765591_64827" class="slider-item" href="https://www.tk-stroyresurs.ru/about/more/blog/pravilnyy-montazh-terrasnoy-doski/" style="background-image:url('/upload/iblock/83f/83f7c24a22c64e27139691b56669fe16.png')">
+         <div class="block__content on_black">
+            <h2 class="title">Доска из ДПК</h2>
+            <p>Правильное хранение и <span style="color: #ffd42e;">монтаж</span></p>
+        </div>
+                    <div class="btn btn_accent">Узнать</div>
+                </a>
+    </div>
+
+<div class="block owl-carousel owl-theme block-slider">
+                                    <a id="bx_651765591_64841" class="slider-item" href="https://www.tk-stroyresurs.ru/catalog/teploizolyatsiya/ekstrudirovannyy_penopolistirol/filter/proizvoditel-is-%D1%83%D1%80%D1%81%D0%B0/apply/" style="background-image:url('/upload/iblock/734/734678ad805b2c5273d554951db57648.png')">
+         <div class="block__content on_black">
+            <h2 class="title">Экструдированный пенополистирол</h2>
+            <p></p>
+        </div>
+                    <div class="btn btn_accent">Купить</div>
+                </a>
+                                    <a id="bx_651765591_67468" class="slider-item" href="https://www.tk-stroyresurs.ru/about/more/blog/kak-prikleit-gipsokarton-na-kley/" style="background-image:url('/upload/iblock/3e0/3e04a1567154555d558e80a0a57709b8.png')">
+         <div class="block__content on_black">
+            <h2 class="title">Как приклеить гипсокартон на клей?</h2>
+            <p></p>
+        </div>
+                    <div class="btn btn_accent">Узнать</div>
+                </a>
+    </div>
+
+<style>
+    .block__content.on_black h2, .block__content.on_black p{
+        color:white;
+    }
+</style><div class="block block_lg">
+                            <div id="bx_1373509569_18343" class="slider-item" style="background-image:url('/upload/iblock/9fe/9fed8b3d22a1bae9802af413e032353d.png')">
+            <div class="block__content ">
+                <h2 class="title">Бесплатная консультация</h2>
+                <p>Помощь в подборе и расчете стройматериалов</p>
+            </div>
+        </div>
+    </div>
+<style>
+    .slider-item .block__content.on_white h2.title, .block__content.on_white p{
+        color:#333;
+    }
+</style>
+
+</div> <div class="catalog">
+	<div class="catalog__tabs drag" id="catalog">
+		<div class="catalog__tabs-wrap drag__stage">
+ <a class="catalog__tab drag__item active" href="#recomend">Рекомендуем</a> <a class="catalog__tab drag__item" href="#popular">Популярное</a> <a class="catalog__tab drag__item" href="#new_item">Новинки</a>
+		</div>
+	</div>
+	<div class="catalog__wrap">
+		<div id="recomend" class="catalog__tab_content">
+			 <div class="item-card">
+    <button class="item-card__icon-show" href="#product-popup" data-pid="5558">Быстрый просмотр</button>
+    <a class="item-card__link" href="/catalog/izdeliya_zhbi/kryshki_koltsa_dnishcha/kryshka_koltsa_pp_10_1_1160_700kh120/">
+        <div class="item-card__body">
+            <div class="item-card__img" style="background-image:url('/upload/resize_cache/iblock/e18/215_215_0/e188c0bc990e4214c94a09ff2583acaa.jpeg')"></div>
+            <div class="item-card__info"></div>
+        </div>
+        <p class="item-card__name"><a href="/catalog/izdeliya_zhbi/kryshki_koltsa_dnishcha/kryshka_koltsa_pp_10_1_1160_700kh120/">Крышка кольца ПП 10.1 (1160/700х120)</a></p>
+    </a>
+</div>
+<div class="item-card">
+    <button class="item-card__icon-show" href="#product-popup" data-pid="16313">Быстрый просмотр</button>
+    <a class="item-card__link" href="/catalog/gipsokarton_i_gipsokartonnye_sistemy/profil_giprok_standart_pp_60kh27_3_m/">
+        <div class="item-card__body">
+            <div class="item-card__img" style="background-image:url('/upload/resize_cache/iblock/d47/215_215_0/d479fc0763ebbb6af59ba431314b61e9.png')"></div>
+            <div class="item-card__info"></div>
+        </div>
+        <p class="item-card__name"><a href="/catalog/gipsokarton_i_gipsokartonnye_sistemy/profil_giprok_standart_pp_60kh27_3_m/">Профиль Гипрок Стандарт ПП 60х27 3 м</a></p>
+    </a>
+</div>
+<div class="item-card">
+    <button class="item-card__icon-show" href="#product-popup" data-pid="13816">Быстрый просмотр</button>
+    <a class="item-card__link" href="/catalog/sukhie_stroitelnye_smesi/shpatlyevka_polimernaya_finishnaya_knauf_rotband_pasta_profi-18_kg/">
+        <div class="item-card__body">
+            <div class="item-card__img" style="background-image:url('/upload/resize_cache/iblock/cba/215_215_0/cba649c67e6392142098ce0fe2d5105e.png')"></div>
+            <div class="item-card__info"></div>
+        </div>
+        <p class="item-card__name"><a href="/catalog/sukhie_stroitelnye_smesi/shpatlyevka_polimernaya_finishnaya_knauf_rotband_pasta_profi-18_kg/">Шпатлёвка полимерная финишная Кнауф Ротбанд Паста Профи,18 кг</a></p>
+    </a>
+</div>
+<div class="item-card hidden">
+    <button class="item-card__icon-show" href="#product-popup" data-pid="7467">Быстрый просмотр</button>
+    <a class="item-card__link" href="/catalog/krovelnye_pokrytiya_i_aksessuary_dlya_skatnykh_krovel/cherdachnaya_lestnitsa_docke_standard_60-70kh120kh300_sm/">
+        <div class="item-card__body">
+            <div class="item-card__img" style="background-image:url('/upload/resize_cache/iblock/733/215_215_0/733b9fbb6bb996edd7a2b98bed41bd22.jpeg')"></div>
+            <div class="item-card__info"></div>
+        </div>
+        <p class="item-card__name"><a href="/catalog/krovelnye_pokrytiya_i_aksessuary_dlya_skatnykh_krovel/cherdachnaya_lestnitsa_docke_standard_60-70kh120kh300_sm/">Чердачная лестница Docke Standard 60/70х120х300 см</a></p>
+    </a>
+</div>
+<div class="item-card hidden">
+    <button class="item-card__icon-show" href="#product-popup" data-pid="63385">Быстрый просмотр</button>
+    <a class="item-card__link" href="/catalog/teploizolyatsiya/penoplast_psb_s_15_9_10_kg_m3_1000kh1000kh50_1/">
+        <div class="item-card__body">
+            <div class="item-card__img" style="background-image:url('/upload/resize_cache/iblock/907/215_215_0/907be1a57ffcc86045f629653c1f20b6.jpeg')"></div>
+            <div class="item-card__info"></div>
+        </div>
+        <p class="item-card__name"><a href="/catalog/teploizolyatsiya/penoplast_psb_s_15_9_10_kg_m3_1000kh1000kh50_1/">Пенопласт ПСБ-С 15 (9-10 кг/м3) 1000х1000х50</a></p>
+    </a>
+</div>
+		</div>
+		<div id="popular" class="catalog__tab_content" style="display: none">
+			 <div class="item-card">
+    <button class="item-card__icon-show" href="#product-popup" data-pid="4091">Быстрый просмотр</button>
+    <a class="item-card__link" href="/catalog/napolnye_pokrytiya/laminat_floorpan_blue_33_kl_8_mm_dub_kanon_chyernyy_4v_1380_kh_193_kh_8_mm_2_131_m2/">
+        <div class="item-card__body">
+            <div class="item-card__img" style="background-image:url('/upload/resize_cache/iblock/787/215_215_0/787a547480ad4b62fbdb8fb90a18fe8d.jpeg')"></div>
+            <div class="item-card__info"></div>
+        </div>
+        <p class="item-card__name"><a href="/catalog/napolnye_pokrytiya/laminat_floorpan_blue_33_kl_8_mm_dub_kanon_chyernyy_4v_1380_kh_193_kh_8_mm_2_131_m2/">Ламинат Floorpan Blue (33 кл.,8 мм) Дуб Каньон чёрный 4V 1380 х 193 х 8 мм, (2,131 м2)</a></p>
+    </a>
+</div>
+<div class="item-card">
+    <button class="item-card__icon-show" href="#product-popup" data-pid="4623">Быстрый просмотр</button>
+    <a class="item-card__link" href="/catalog/krovelnye_rulonnye_materialy_gidroizolyatsiya/mastika_kholodnaya_bitumnaya_orgkrovlya_20_l_16_kg/">
+        <div class="item-card__body">
+            <div class="item-card__img" style="background-image:url('/upload/resize_cache/iblock/7ff/215_215_0/7ffa5a55b059aaaa45cfca3ec1f17153.jpg')"></div>
+            <div class="item-card__info"></div>
+        </div>
+        <p class="item-card__name"><a href="/catalog/krovelnye_rulonnye_materialy_gidroizolyatsiya/mastika_kholodnaya_bitumnaya_orgkrovlya_20_l_16_kg/">Мастика холодная битумная Оргкровля, 20 л (16 кг)</a></p>
+    </a>
+</div>
+<div class="item-card">
+    <button class="item-card__icon-show" href="#product-popup" data-pid="7445">Быстрый просмотр</button>
+    <a class="item-card__link" href="/catalog/plitka_i_keramogranit/keramogranit_tekhnogres_svetlo_seryy_30kh30kh7_1_35_m2_up/">
+        <div class="item-card__body">
+            <div class="item-card__img" style="background-image:url('/upload/resize_cache/iblock/0b0/215_215_0/0b034245bf55147cf919f5707b43286a.jpeg')"></div>
+            <div class="item-card__info"></div>
+        </div>
+        <p class="item-card__name"><a href="/catalog/plitka_i_keramogranit/keramogranit_tekhnogres_svetlo_seryy_30kh30kh7_1_35_m2_up/">Керамогранит Техногрес светло-серый 30х30х7 (1,35 м2/уп)</a></p>
+    </a>
+</div>
+<div class="item-card hidden">
+    <button class="item-card__icon-show" href="#product-popup" data-pid="7327">Быстрый просмотр</button>
+    <a class="item-card__link" href="/catalog/stroitelnye_lenty_skotch/serpyanka_lenty_dlya_stykov/lenta_serpyanka_samokleyushchayasya_45_mm_kh_90_m/">
+        <div class="item-card__body">
+            <div class="item-card__img" style="background-image:url('/upload/resize_cache/iblock/9c5/215_215_0/9c56786d81b4f83db63098ee8e2750cb.png')"></div>
+            <div class="item-card__info"></div>
+        </div>
+        <p class="item-card__name"><a href="/catalog/stroitelnye_lenty_skotch/serpyanka_lenty_dlya_stykov/lenta_serpyanka_samokleyushchayasya_45_mm_kh_90_m/">Лента серпянка самоклеющаяся 45 мм х 90 м</a></p>
+    </a>
+</div>
+<div class="item-card hidden">
+    <button class="item-card__icon-show" href="#product-popup" data-pid="11366">Быстрый просмотр</button>
+    <a class="item-card__link" href="/catalog/krovelnye_pokrytiya_i_aksessuary_dlya_skatnykh_krovel/keramicheskaya_cherepitsa_braas_rubin_9v_naturalnyy_krasnyy_472_kh_313_mm/">
+        <div class="item-card__body">
+            <div class="item-card__img" style="background-image:url('/upload/resize_cache/iblock/4d3/215_215_0/4d3eefda9a56604b6f7bb3e8dba9ee19.jpeg')"></div>
+            <div class="item-card__info"></div>
+        </div>
+        <p class="item-card__name"><a href="/catalog/krovelnye_pokrytiya_i_aksessuary_dlya_skatnykh_krovel/keramicheskaya_cherepitsa_braas_rubin_9v_naturalnyy_krasnyy_472_kh_313_mm/">Керамическая черепица BRAAS, Рубин 9V, Натуральный красный, 472 х 313 мм</a></p>
+    </a>
+</div>
+		</div>
+		<div id="new_item" class="catalog__tab_content" style="display: none">
+			 <div class="item-card">
+    <button class="item-card__icon-show" href="#product-popup" data-pid="67357">Быстрый просмотр</button>
+    <a class="item-card__link" href="/catalog/lakokrasochnye_materialy_dobavki/gruntovka_glubokogo_proniknoveniya_litoks_proff_contact_10l/">
+        <div class="item-card__body">
+            <div class="item-card__img" style="background-image:url('/upload/resize_cache/iblock/f0a/215_215_0/f0a458d61ebeb274261f7069f1685e9e.png')"></div>
+            <div class="item-card__info"></div>
+        </div>
+        <p class="item-card__name"><a href="/catalog/lakokrasochnye_materialy_dobavki/gruntovka_glubokogo_proniknoveniya_litoks_proff_contact_10l/">Грунтовка глубокого проникновения Литокс PROFF CONTACT+, 10л</a></p>
+    </a>
+</div>
+<div class="item-card">
+    <button class="item-card__icon-show" href="#product-popup" data-pid="67434">Быстрый просмотр</button>
+    <a class="item-card__link" href="/catalog/plitka_i_keramogranit/mozaika_estima_marmulla_ma01_cross_27_9kh31_5_nepolirovannyy/">
+        <div class="item-card__body">
+            <div class="item-card__img" style="background-image:url('/upload/resize_cache/iblock/60e/215_215_0/60ea10dea4a6e71b4463bd1329c27201.jpg')"></div>
+            <div class="item-card__info"></div>
+        </div>
+        <p class="item-card__name"><a href="/catalog/plitka_i_keramogranit/mozaika_estima_marmulla_ma01_cross_27_9kh31_5_nepolirovannyy/">Мозаика Эстима Marmulla MA01 Cross 27,9х31,5 неполированный</a></p>
+    </a>
+</div>
+<div class="item-card">
+    <button class="item-card__icon-show" href="#product-popup" data-pid="67620">Быстрый просмотр</button>
+    <a class="item-card__link" href="/catalog/lakokrasochnye_materialy_dobavki/antiseptik_tikkurila_valtti_log_palisandr_9_l/">
+        <div class="item-card__body">
+            <div class="item-card__img" style="background-image:url('/upload/resize_cache/iblock/d64/215_215_0/d6469d8cc540b4d34eaaea4d6205f80b.jpg')"></div>
+            <div class="item-card__info"></div>
+        </div>
+        <p class="item-card__name"><a href="/catalog/lakokrasochnye_materialy_dobavki/antiseptik_tikkurila_valtti_log_palisandr_9_l/">Антисептик Tikkurila VALTTI LOG, палисандр, 9 л</a></p>
+    </a>
+</div>
+<div class="item-card hidden">
+    <button class="item-card__icon-show" href="#product-popup" data-pid="67611">Быстрый просмотр</button>
+    <a class="item-card__link" href="/catalog/peny_germetiki_klei/ochistitel_montazhnoy_peny_knauf_500_ml/">
+        <div class="item-card__body">
+            <div class="item-card__img" style="background-image:url('/upload/resize_cache/iblock/50e/215_215_0/50e68ca805d992b78ccde6149893b51a.jpg')"></div>
+            <div class="item-card__info"></div>
+        </div>
+        <p class="item-card__name"><a href="/catalog/peny_germetiki_klei/ochistitel_montazhnoy_peny_knauf_500_ml/">Очиститель монтажной пены Кнауф, 500 мл</a></p>
+    </a>
+</div>
+<div class="item-card hidden">
+    <button class="item-card__icon-show" href="#product-popup" data-pid="64356">Быстрый просмотр</button>
+    <a class="item-card__link" href="/catalog/kirpich_iskusstvennyy_kamen/kirpich_klinkernyy_fasadnyy_korichnevyy_myunkhen_beresta_0_71nf_m_300/">
+        <div class="item-card__body">
+            <div class="item-card__img" style="background-image:url('/upload/resize_cache/iblock/923/215_215_0/9230c031c6287892da10ac27fd401cfb.png')"></div>
+            <div class="item-card__info"></div>
+        </div>
+        <p class="item-card__name"><a href="/catalog/kirpich_iskusstvennyy_kamen/kirpich_klinkernyy_fasadnyy_korichnevyy_myunkhen_beresta_0_71nf_m_300/">Кирпич клинкерный фасадный коричневый Мюнхен Береста 0,71НФ М-300</a></p>
+    </a>
+</div>
+		</div>
+		<div class="item-card item-card_new-items">
+			<div class="wrap">
+ <span class="text_desc">И ещё</span>
+				<h2 class="title">31 769</h2>
+				<p>
+					товаров 
+				</p>
+			</div>
+ <a class="btn btn_accent" href="/catalog/">Каталог</a>
+		</div>
+	</div>
+</div>
+<br> <div class="about">
+  <h2 class="about__title title title_size_lg">Бесконечный строительный ресурс</h2>
+  <div class="about__content">
+    <div class="about__text">
+<p>Есть задача? Найдем решение! Присоединяйтесь к сотрудничеству, мы сделаем всё, чтоб Вам было выгодно и удобного работать с нами. Мы ценим Ваш выбор всегда!</p>
+      <!--<p><a class="link link_blue" href="/catalog">Более 25000 наименований</a> товаров для стройки, ремонта и отделки, которые позволяют решить строительную задачу любого масштаба.</p>
+    --></div>
+    <div class="about__buttons"><a class="btn btn_primary" href="/about">Больше про нас</a><a class="link link_blue" href="#partner">Обсудить партнерство</a></div>
+  </div>
+</div></div>
+<section class="section_slider">
+	<div class="container">
+	  <div class="advantages advantages_index">
+	    <div class="advantages__inner">
+																	    					<div id="bx_1454625752_358" class="advantages__item" style="background-image:url('/upload/iblock/b77/b774179603bb7ab20fa866d0bd3c43cc.svg')">
+	          <h4 class="title title_size_sm">Работаем с 2003 года</h4>
+	          <div class="advantages__content">
+							<p>Знаем все о строительных материалах.</p>
+	          </div>
+	        </div>
+																	    					<div id="bx_1454625752_357" class="advantages__item" style="background-image:url('/upload/iblock/eff/eff9c2c4f7301be1afc482cb4ebe2495.svg')">
+	          <h4 class="title title_size_sm">Несем ответственность за каждый заказ</h4>
+	          <div class="advantages__content">
+							<p>Даже после завершения сделки</p>
+	          </div>
+	        </div>
+																	    					<div id="bx_1454625752_356" class="advantages__item" style="background-image:url('/upload/iblock/319/319b5ccb0be6de3da6c1b73490f040fa.svg')">
+	          <h4 class="title title_size_sm">Работаем напрямую с производителями</h4>
+	          <div class="advantages__content">
+							<p>Гарантируем справедливые цены</p>
+	          </div>
+	        </div>
+																	    					<div id="bx_1454625752_355" class="advantages__item" style="background-image:url('/upload/iblock/c8d/c8de9453283238938a6258c34451e6a9.svg')">
+	          <h4 class="title title_size_sm">Собственная логистика</h4>
+	          <div class="advantages__content">
+							<p>Доставим, когда удобно Вам</p>
+	          </div>
+	        </div>
+							</div>
+		</div>
+	</div>
+</section><div class="news">
+    <div class="container">
+        <div class="news__header">
+            <h2 class="title title_size_lg">Последние новости</h2>
+            <a class="news__link_desk link link_blue" href="/about/more/">Все новости</a>
+        </div>
+
+        <div class="news__wrap">
+                                                <a id="bx_3322728009_67732" class="news-item news-item_last" href="/about/more/blog/kakoy-kupit-uteplitel-dlya-mezhetazhnykh-perekrytiy/">
+                <h3 class="title title_size_md">Какой купить утеплитель для межэтажных перекрытий?</h3>
+                <div class="news-item__footer">
+                	<!-- <span class="news-item__tag text_color_primary"></span> -->
+                    <span class="news-item__tag text_color_primary">Статьи</span>
+                	<span class="news-item__date">15.07.2021</span>
+                </div>
+            </a>
+                                                <a id="bx_3322728009_67293" class="news-item" href="/about/more/news/estima-marmulla-izyskannaya-kollektsiya-keramicheskogo-granita/">
+                <h3 class="title title_size_md">Эстима Marmulla: изысканная коллекция керамического гранита</h3>
+                <div class="news-item__footer">
+                	<!-- <span class="news-item__tag text_color_primary"></span> -->
+                    <span class="news-item__tag text_color_primary">Новости</span>
+                	<span class="news-item__date">05.07.2021</span>
+                </div>
+            </a>
+                                                <a id="bx_3322728009_67116" class="news-item hidden" href="/about/more/blog/kak-prikleit-gipsokarton-na-kley/">
+                <h3 class="title title_size_md">Как приклеить гипсокартон на клей?</h3>
+                <div class="news-item__footer">
+                	<!-- <span class="news-item__tag text_color_primary"></span> -->
+                    <span class="news-item__tag text_color_primary">Статьи</span>
+                	<span class="news-item__date">01.07.2021</span>
+                </div>
+            </a>
+                    </div>
+        <a class="news__link_mob link link_blue" href="/about/more/">Все новости</a>
+    </div>
+</div>              <script src="//code-ya.jivosite.com/widget/GNN2NLSPmc" async></script>
+        <footer class="footer">
+      <div class="footer__top container">
+        <nav class="footer__nav">
+            <ul class="footer__list">
+	<li class="footer__item">
+		<p class="footer__head">О компании</p>
+	</li>
+						<li class="footer__item"><a class="footer__link" href="/about/">О нас</a></li>
+								<li class="footer__item"><a class="footer__link" href="/about/job/">Вакансии</a></li>
+								<li class="footer__item"><a class="footer__link" href="/about/brands/">Партнеры</a></li>
+								<li class="footer__item"><a class="footer__link" href="/about/partnership/">Поставщикам</a></li>
+			</ul>             <!--<ul class="footer__list">
+	<li class="footer__item">
+		<p class="footer__head">Помощь</p>
+	</li>
+						<li class="footer__item"><a class="footer__link" href="/">Как сделать заказ</a></li>
+								<li class="footer__item"><a class="footer__link" href="/">Доставка</a></li>
+								<li class="footer__item"><a class="footer__link" href="/">Оплата</a></li>
+								<li class="footer__item"><a class="footer__link" href="/">Вопросы и ответы</a></li>
+								<li class="footer__item"><a class="footer__link" href="/">Контакты</a></li>
+			</ul>-->
+             <ul class="footer__list">
+	<li class="footer__item">
+		<p class="footer__head">Оптовым клиентам</p>
+	</li>
+						<li class="footer__item"><a class="footer__link" href="#account">Личный кабинет</a></li>
+								<li class="footer__item"><a class="footer__link" href="/about/wholesale/">Крупный опт</a></li>
+								<li class="footer__item"><a class="footer__link" href="#partner">Стать партнером</a></li>
+			</ul>        </nav>
+        <div class="footer__contacts">
+          <p class="footer__head">Контакты</p>
+                      <div class="footer__call">
+          	<a class="footer__phone" href="tel:88006000700">8 800 6000 700</a>
+          	<a class="btn btn_primary" href="#call">Заказать звонок</a>
+          	<a class="footer__mail" href="#mail">Написать директору</a></div>
+          <div class="footer__sub-wrap">
+            <div class="footer__payments payments"><span class="payments__text">Мы принимаем к оплате:</span>
+              <ul class="payments__list">
+                <li class="payments__item payments_visa"></li>
+                <li class="payments__item payments_mastercard"></li>
+                <li class="payments__item payments_maestro"></li>
+                <li class="payments__item payments_mir"></li>
+                <li class="payments__item payments_apple-pay"></li>
+              </ul>
+            </div>
+            <div class="footer__socials socials">
+              <ul class="socials__list">
+                <li><a class="socials__item socials_vk" target="_blank" rel="nofollow" href="https://vk.com/club88382625"></a></li>
+                <li><a class="socials__item socials_fb" target="_blank" rel="nofollow" href="https://www.facebook.com/gkstroyresurs/"></a></li>
+                <li><a class="socials__item socials_ok" target="_blank" rel="nofollow" href="https://ok.ru/profile/576964200074"></a></li>
+                <li><a class="socials__item socials_inst" target="_blank" rel="nofollow" href="https://www.instagram.com/gkstroyresurs/"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!--<a class="footer__ya-market_top ya-market" href="http://market.yandex.ru" rel="nofollow" target="_blank">
+          <span class="text_color_primary">Рейтинг на основе отзывов покупателей <br/> и данных службы качества
+</span>
+        </a>-->
+      </div>
+        <div class="wrap_color_primary">
+            <div class="footer__bottom container">
+                <div class="footer__license">
+                    <p>© 2021 ГК «СТРОЙРЕСУРС»</p>
+											<a href="/upload/docs/polconf_kursk.pdf">Политика конфиденциальности</a>
+					                </div>
+                <a class="footer__ya-market_bottom ya-market" href="http://market.yandex.ru" rel="nofollow" target="_blank">
+                    <span>Рейтинг на основе отзывов покупателей <br/> и данных службы качества
+</span>
+                </a>
+                <a class="footer__copyright copyright" href="http://anmedio.ru" rel="nofollow" target="_blank"> 
+                    <img src="/local/templates/stroyresurs/img/svg/copyright.svg" alt="Логотип компании Анмедио"/>
+                </a>
+            </div>
+        </div>
+        <a class="call-btn" href="#fixedphone" style="background-image: url('/local/templates/stroyresurs/img/svg/phone.svg">
+            <svg class="call-btn__counter">
+              <circle cx="11" cy="11" r="11"></circle>
+              <text x="12" y="15.5" text-anchor="middle">3</text>
+            </svg>
+        </a>
+
+    </footer>
+    <!-- Yandex.Metrika counter --> <script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter50034421 = new Ya.Metrika2({ id:50034421, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/tag.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks2"); </script>  <!-- /Yandex.Metrika counter -->        <p style="display:none;">mchost</p>
+  
+  </body>
+</html>
